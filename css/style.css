@@ -1,0 +1,35 @@
+/******************************* 
+    common UI elemets
+*******************************/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.box {
+    background-color: blue;
+    color: white;
+    margin: 1px;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.box-2 {
+    background-color: green;
+    color: white;
+    width: 90%;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+}
+
+.container2 {
+    padding-top: 16px;
+}
+
+.d-flex { display: flex; }
